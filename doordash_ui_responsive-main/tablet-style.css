@@ -184,6 +184,11 @@
     .bottom-section-1 {
         margin-left: -20px;
     }
+    footer>.bottom-footer>.bottom-section-2>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     footer>.bottom-footer>.bottom-section-1>ul>.bottom-section-1-class-1,
     footer>.bottom-footer>.bottom-section-1>ul>.bottom-section-1-class-2 {
         display: flex;

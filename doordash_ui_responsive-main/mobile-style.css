@@ -149,13 +149,18 @@
     footer>.bottom-footer {
         margin-right: 5px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        justify-content: space-between;
     }
     footer>.bottom-footer>.bottom-section-1>ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    footer>.bottom-footer>.bottom-section-2>ul>li>.media-icon {
+        display: inline-block;
+        margin-right: 1.5px;
+        margin-bottom: 25px;
     }
     footer>.bottom-footer>.bottom-section-1>ul>.bottom-section-1-class-1,
     footer>.bottom-footer>.bottom-section-1>ul>.bottom-section-1-class-2 {
