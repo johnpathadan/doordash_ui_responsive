@@ -17,6 +17,7 @@
     }
     .showcase {
         margin-top: 20%;
+        /* box-sizing: border-box; */
     }
     .just-logo {
         visibility: visible;
@@ -26,7 +27,7 @@
     }
     .main-heading {
         font-size: 35px;
-        /* line-height: 32px; */
+        line-height: 32px;
     }
     #welcome-content {
         height: 60vh;
@@ -41,7 +42,7 @@
         flex-direction: column;
         height: 600px;
         justify-content: center;
-        margin: 30px 10px;
+        margin: 70px 10px 30px 10px;
         /*add margin*/
         /* border: 2px solid purple; */
     }
@@ -93,8 +94,9 @@
         left: 10%;
     }
     .flavour-welcome {
-        height: 1100px;
+        height: 900px;
         margin-top: -85%;
+        padding-bottom: 40px;
     }
     .sub-div {
         flex-direction: column;

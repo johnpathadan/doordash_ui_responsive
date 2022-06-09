@@ -1,3 +1,9 @@
+@media (max-width: 1300px) {
+    #welcome-content {
+        height: 68vh;
+    }
+}
+
 @media (max-width: 950px) {
     #logo {
         width: 1px;
@@ -13,7 +19,7 @@
         padding-right: 15px;
     }
     .showcase {
-        margin-top: 7%;
+        margin-top: 5%;
     }
     .just-logo {
         visibility: visible;
@@ -26,7 +32,7 @@
         line-height: 50px;
     }
     #welcome-content {
-        height: 45vh;
+        height: 40vh;
     }
     #searchBar {
         left: 28%;
@@ -175,11 +181,5 @@
     }
     .bottom-section-1 {
         margin-left: -20px;
-    }
-}
-
-@media (max-width: 1300px) {
-    #welcome-content {
-        height: 68vh;
     }
 }
